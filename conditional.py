@@ -1,26 +1,25 @@
 
 
 my_name="aika"
-name=raw_input("whta is your name?")
+my_bf_name="david"
 
-if str(name)<my_name:
+if my_bf_name<my_name:
 	print "my name is greater"
-elif str(name)>my_name:
+elif my_bf_name>my_name:
 	print "his name is greater"
 else:
 	print "Our name are equal"
 
 
-date=raw_input("What is the date?")
 
-if int(date)<15:
+if 8<15:
 	print 'The month is still young'
 else:
 	print "Oh whe are half way there"
 
 	
 
-today=raw_input("what week day it is?")
+today="Saturday"
 
 if str(today)=="Monday":
 	print "Yay class day"
@@ -37,11 +36,11 @@ else:
 
 
 
-age=raw_input("what is your age?")
+age=26
 
-if int(age)>=18 and int(age)>=21:
+if age>=21:
 	print "Yeah, I can vote and drink"
-elif int(age)>=18 and int(age)<=21:
+elif age>=18:
 	print "I can vote but I cannot drink"
 else:
 	print "Aww, I cannot vote and go to bar"
@@ -50,7 +49,7 @@ else:
 
 if 8%2==0 and 9%2==0:  
 	print "both numbers are even"
-elif 9%2==0 and 9%2==0:
+elif 8%2==0 and 9%2!=0:
 	print "8 is even and 9 is odd"
 elif 8%2!=0 and 9%2==0:
 	print "8 is odd and 9 is even."
